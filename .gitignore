@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Vector DBs and model files
+chroma_db/
+faiss_index/
+*.pkl
+*.joblib
+
+# Browser agent / Playwright
+playwright-report/
+test-results/
+screenshots/tmp/
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
